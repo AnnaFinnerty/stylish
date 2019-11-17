@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body{
+    background: white;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    font-family: 'Pacifico', cursive;
+    background:black;
+    color: white;
+    margin: .5vh;
+    border-radius: 20%;
+}
+
+.logo{
+    width: 100%;
+    text-align: center;
+    font-size: 10vh;
+    padding-top: 2vh;
+}
+
+.container{
+    margin: 0 auto;
+    width: 40vh;
+}
+
+.body-container{
+    height: 60vh;
+    width: 39vh;
+}
+
+.body1{
+    background-image: url(img/body1.png);
+    background-repeat: no-repeat;
+    background-size: contain;  
+}
+
+.tool-bar{
+   vertical-align: baseline;
+    border: 4px solid black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.detector-container{
+    position: relative;
+    margin-top: -60vh;
+}
+
+.detector{
+    flex: 1;
+    height: 10vh;
+    display: block;
+    color: transparent;
+}
+
+.hair-container{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: inherit;
+    width: inherit;
+}
+
+.cut{
+    background: red;
+    width: 5vw;
+    height: 5vw;
+}
+
+.longWild{
+    background-image: url(img/longwild.png);
+}
+
+.longBob{
+    background-image: url(img/long-bob.png);
+}
+
+.shortLayers{
+    background-image: url(img/short-layers.png);
+}
+
+.shortBob{
+    background-image: url(img/short-bob.png);
+}
+
+.inline-flex{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
