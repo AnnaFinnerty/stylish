@@ -1,6 +1,4 @@
-function Stylish(){
-    console.log("Stylish is running");
-    
+function Stylish(){    
     this.currentStyle = 'longWild';
     this.lastStyle = null;
 
